@@ -1,6 +1,6 @@
 {
   "name": "connect-shtml",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Steve Lamb <steve@stevelamb.io>",
   "description": "an shtml emulator for grunt",
   "main": "./lib/connect-shtml",
@@ -14,7 +14,8 @@
   ],
   "dependencies" : {
     "stream-buffers" :  ">= 0.2.3",
-    "connect" :  ">= 2.7.2"
+    "connect" :  ">= 2.7.2",
+    "underscore" : ">= 1.4.4"
   },
   "engines": {
     "node": ">=0.8"
